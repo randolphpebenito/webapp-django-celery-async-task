@@ -37,6 +37,10 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    #My apps
+    'feedback',
+    'photos',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -117,4 +121,4 @@ CELERY_TIMEZONE = 'Asia/Manila'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_HOST = 'localhost'
 EMAIL_PORT = 1025
-DEFAULT_FROM_EMAIL = 'Picha <picha@example.com>'
+DEFAULT_FROM_EMAIL = 'test@gmail.com'
